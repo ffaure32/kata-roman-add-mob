@@ -3,9 +3,10 @@ package woody;
 public enum NumbersRepresentation {
     FOUR("IIII","IV"),
     FIVE("IIIII", "V"),
-    NINE("IIIIIIIII", "IX"),
-    TEN("IIIIIIIIII", "X"),
-    FORTY("XXXX","XL");
+    NINE("VIV", "IX"),
+    TEN("VV", "X"),
+    FORTY("XXXX","XL"),
+    FIFTY("XXXXX","L");
 
     public final String asIs;
     public final String asRoman;
